@@ -10,6 +10,77 @@ module.exports = [
         tipe: 'part-time',
         posisi: 'CEO',
         penerbit: 'DeveloperTemanKOS',
-        lamar_url: 'http://google.com/'
+        lamar_url: 'http://google.com/',
+        photo_url: 'https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Unilever.svg/120px-Unilever.svg.png'
+    },
+    {
+        namaperusahaan: 'PT.Aku Sayang Kamu Selamanya',
+        alamat: 'Jl.Raya',
+        deskripsi: 'Nothing',
+        rating: '10',
+        like: '9',
+        dislike: '0',
+        gaji: '999',
+        tipe: 'part-time',
+        posisi: 'Penghibur',
+        penerbit: 'DeveloperTemanKOS',
+        lamar_url: 'http://google.com/',
+        photo_url: 'http://isagi.or.id/wp-content/uploads/2018/02/jf.jpg'
+    },
+    {
+        namaperusahaan: 'PT.Mencari Cinta Sejati',
+        alamat: 'Jl.Raya',
+        deskripsi: 'Nothing',
+        rating: '10',
+        like: '9',
+        dislike: '0',
+        gaji: '10000',
+        tipe: 'part-time',
+        posisi: 'CEO',
+        penerbit: 'DeveloperTemanKOS',
+        lamar_url: 'http://google.com/',
+        photo_url: 'https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Unilever.svg/120px-Unilever.svg.png'
+    },
+    {
+        namaperusahaan: 'PT.Aku Sayang Kamu Selamanya',
+        alamat: 'Jl.Raya',
+        deskripsi: 'Nothing',
+        rating: '10',
+        like: '9',
+        dislike: '0',
+        gaji: '999',
+        tipe: 'part-time',
+        posisi: 'Penghibur',
+        penerbit: 'DeveloperTemanKOS',
+        lamar_url: 'http://google.com/',
+        photo_url: 'http://isagi.or.id/wp-content/uploads/2018/02/jf.jpg'
+    },
+    {
+        namaperusahaan: 'PT.Mencari Cinta Sejati',
+        alamat: 'Jl.Raya',
+        deskripsi: 'Nothing',
+        rating: '10',
+        like: '9',
+        dislike: '0',
+        gaji: '10000',
+        tipe: 'part-time',
+        posisi: 'CEO',
+        penerbit: 'DeveloperTemanKOS',
+        lamar_url: 'http://google.com/',
+        photo_url: 'https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Unilever.svg/120px-Unilever.svg.png'
+    },
+    {
+        namaperusahaan: 'PT.Aku Sayang Kamu Selamanya',
+        alamat: 'Jl.Raya',
+        deskripsi: 'Nothing',
+        rating: '10',
+        like: '9',
+        dislike: '0',
+        gaji: '999',
+        tipe: 'part-time',
+        posisi: 'Penghibur',
+        penerbit: 'DeveloperTemanKOS',
+        lamar_url: 'http://google.com/',
+        photo_url: 'http://isagi.or.id/wp-content/uploads/2018/02/jf.jpg'
     }
 ]

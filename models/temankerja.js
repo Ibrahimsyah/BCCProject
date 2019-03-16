@@ -55,6 +55,6 @@ module.exports = conn.define(
     lamar_url:{
       type: Sequelize.STRING,
       allowNull: false
-    }
+    },
   }
 )

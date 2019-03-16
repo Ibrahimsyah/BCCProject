@@ -2,12 +2,12 @@ const express = require('express')
 const app = express()
 const conn = require('../models')
 
-app.get('/temankerja', async (req, res) => {
+app.get('/temankerja', async function (req, res) {
     try {
-        let posts = await conn.models.TemanKerja.findAll()
+        let result = await conn.models.TemanKerja.findAll()
         res.status(200).json({
             is_ok: true,
-            posts
+            result
         })
     } catch (err) {
         err.status(500).json({
