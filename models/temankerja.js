@@ -19,7 +19,8 @@ module.exports = conn.define(
     },
     rating: {
       type: Sequelize.INTEGER,
-      allowNull: false
+      allowNull: false,
+      defaultValue: 0
     },
     like: {
       type: Sequelize.INTEGER,

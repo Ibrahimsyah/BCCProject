@@ -18,9 +18,10 @@ app.get('/temankerja', async function (req, res) {
 })
 
 //Fungsi untuk POST
-app.post('/temankerja', async (req, res) => {  //jika user access localhost:3000/posts 
+app.post('/temankerja', async function(req, res){  //jika user access localhost:3000/posts 
     console.log('items: ', req.body)
     try {
+        
         await conn.models.TemanKerja.create(req.body)  //write data sesuai request
         res.status(201).json({
             is_ok: true,
