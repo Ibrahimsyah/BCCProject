@@ -133,12 +133,12 @@ io.on('connection', (socket) => {
     io.to(room).emit('message', pesan);
   });
   socket.on('leave room', function () {
-    console.log("leave the room, rooms= " + rooms)
+    console.log("leave the room, rooms= " + rooms.id)
     console.log("queue length: " + queue.length)
     var room = rooms[socket.id];
     socket.broadcast.to(room).emit('chat end');
     var peerID = room.split('#')
-    peerID = peerID[0] === socket.id ? peerID[1] : peerID[0];
+    peerID = peerID[0] == socket.id ? peerID[1] : peerID[0];
     findPeerForLoneSocket(allUsers[peerID]);
     // findPeerForLoneSocket(socket);
   });
